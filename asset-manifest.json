@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/minimal-jewelery/static/css/main.ac0c12c1.css",
-    "main.js": "/minimal-jewelery/static/js/main.1adfe471.js",
+    "main.js": "/minimal-jewelery/static/js/main.44c60bdf.js",
     "static/js/787.b6a3deea.chunk.js": "/minimal-jewelery/static/js/787.b6a3deea.chunk.js",
     "static/media/slide1.jpg": "/minimal-jewelery/static/media/slide1.fd8e70660a473b5fb769.jpg",
     "static/media/diamond jewellery.png": "/minimal-jewelery/static/media/diamond jewellery.1a87b56fab769ad60183.png",
     "index.html": "/minimal-jewelery/index.html",
     "main.ac0c12c1.css.map": "/minimal-jewelery/static/css/main.ac0c12c1.css.map",
-    "main.1adfe471.js.map": "/minimal-jewelery/static/js/main.1adfe471.js.map",
+    "main.44c60bdf.js.map": "/minimal-jewelery/static/js/main.44c60bdf.js.map",
     "787.b6a3deea.chunk.js.map": "/minimal-jewelery/static/js/787.b6a3deea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac0c12c1.css",
-    "static/js/main.1adfe471.js"
+    "static/js/main.44c60bdf.js"
   ]
 }
