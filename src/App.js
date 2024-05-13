@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import React, { Component } from 'react'
+import { Routes,Route } from "react-router-dom";
 import './App.css';
+import Home from './screens/Home';
+import Men from './screens/Men';
+import Women from './screens/Women';
+import Kid from './screens/Kid';
+import Bima from './screens/Bima';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <>
+        <Routes>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='/Men' element={<Men/>}></Route>
+        <Route path='/Women' element={<Women/>}></Route>
+        <Route path='/Kid' element={<Kid/>}></Route>
+        <Route path='/Bima' element={<Bima/>}></Route>
+        </Routes>
+      </>
+    )
+  }
 }
-
-export default App;
